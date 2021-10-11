@@ -1,5 +1,5 @@
-import JanusPlugin from "calldemo/node_modules/react-native-janus/utils/JanusPlugin.js";
-import { Janus } from "../../node_modules/react-native-janus";
+import JanusPlugin from "../../utils/JanusPlugin";
+import { Janus } from "../../Janus";
 import JanusAudioBridgeParticipant from "./AudioBridgeParticipant";
 
 export default class JanusAudioBridgePulgin extends JanusPlugin {
